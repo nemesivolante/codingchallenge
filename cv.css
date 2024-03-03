@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    background-color: lightgray;
+}
+
+main {
+    padding-left: 10px;
+}
+
+section > h3 {
+    color: orange;
+}
+
+section > h5 {
+    font-style: italic;
+}
+
+footer {
+    border-top: solid;
+    border-top-color: orange;
+    font-size: small;
+}
+
+footer > span:first-child::after{
+    content: "\2665";
+}

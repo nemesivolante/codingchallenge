@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+    width: 700px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.square {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+
+header {
+    color: lime;
+    text-align: center;
+}
+
+#logo {
+    width: 200px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+    background-color: lime;
+    padding: 10px;
+}
+
+.mono {
+    font-size: small;
+    color: white;
+    line-height: 8px;
+
+}
+
+.carica {
+    height: 25px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.Gino22>.carica {
+    width: 30%;
+    background-color: orange;
+}
+
+.Mike24>.carica {
+    width: 70%;
+    background-color: lime;
+}
+
+.Fede154>.carica {
+    width: 20%;
+    background-color: coral;
+}
