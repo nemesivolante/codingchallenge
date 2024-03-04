@@ -1,10 +1,14 @@
+.container{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
 .articolo {
     position: relative;
     display: inline-block;
 }
 
 .sconto {
-    background-color: green;
     position: absolute;
     top: 0;
     right: 0;
@@ -15,13 +19,21 @@
     font-size: 30px;
     position: absolute;
     bottom: 0;
-    left: 50%;
+    width: 100%;
+    display: none;
 }
 
-.minore {
+.sconto.red {
     background-color: red;
 }
+.sconto.green {
+    background-color: green;
+}
 
-.seconda {
+.row {
     margin-top: 15px;
+}
+
+.articolo:hover .cuore{
+    display: block;
 }
