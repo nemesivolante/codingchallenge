@@ -1,10 +1,14 @@
-*{
+* {
     margin: 0;
 }
-.city-image1{
-    background-image: url("praia.jpg");
-    height: 50vh;
-    width: 50vw;
+
+body{
+    background-color: lightcyan;
+}
+
+.city {
+    height: 55vh;
+    width: 55vw;
     margin: auto;
     background-size: cover;
     background-position: center;
@@ -12,37 +16,30 @@
     position: relative;
 }
 
-.city-name{
+.city-name {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
     font-size: 50px;
+    text-align: center;
 }
 
-.layover{
+.layover {
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
-.city-image2{
+
+.city.image1 {
+    background-image: url("praia.jpg");
+}
+
+.city.image2 {
     background-image: url("tropea.jpeg");
-    height: 50vh;
-    width: 50vw;
-    margin: auto;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid black;
-    position: relative;
 }
-.city-image3{
+
+.city.image3 {
     background-image: url("reggio.jpeg");
-    height: 50vh;
-    width: 50vw;
-    margin: auto;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid black;
-    position: relative;
 }
