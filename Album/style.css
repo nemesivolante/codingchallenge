@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hv-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    width: 80vw;
+    height: 80vh;
+}
+
+.new-album,.see {
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.new-album {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+}
+
+.see {
+    float: right;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+.photo {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-top: 20px;
+}
+
+.image {
+    width: 90%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+}
+
+.name {
+    font-weight: bold;
+    height: 10%;
+    width: 10%;
+}
+
+.amount {
+    color: gray;
+    height: 10%;
+    width: 10%;
+}
+
+#lago {
+    background-image: url("Lago.jpg");
+}
+#montagna {
+    background-image: url("montagna.jpeg");
+}
+#mare {
+    background-image: url("mare.jpeg");
+}  
+#city {
+    background-image: url("city.jpg");
+}
