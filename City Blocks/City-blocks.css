@@ -32,14 +32,14 @@ body{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.city.image1 {
+#praia {
     background-image: url("praia.jpg");
 }
 
-.city.image2 {
+#tropea {
     background-image: url("tropea.jpeg");
 }
 
-.city.image3 {
+#reggio {
     background-image: url("reggio.jpeg");
 }
