@@ -1,6 +1,8 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 .clearfix:after {
@@ -16,71 +18,47 @@
     transform: translate(-50%, -50%);
 }
 
-main {
-    width: 80vw;
-    height: 80vh;
+.container {
+    padding: 50px;
 }
 
-.new-album,.see {
-    font-weight: bold;
-    color: dodgerblue;
-}
-
-.new-album {
-    font-size: 25px;
-    margin-bottom: 30px;
+.add a {
+    font-size: 40px;
+    color: #3481d0;
+    text-decoration: none;
 }
 
 .title {
-    font-size: 35px;
+    padding-bottom: 20px;
+    margin: 50px 0;
+    font-size: 40px;
     font-weight: bold;
-    float: left;
+    border-bottom: 1px solid lightgray;
 }
 
-.see {
+.title a {
+    text-decoration: none;
+    color: #3481d0;
     float: right;
+    font-size: 20px;
 }
 
-.row {
-    height: 100%;
+.album {
+    float: left;
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+}
+
+.album-image img {
     width: 100%;
 }
 
-.photo {
-    width: 25%;
-    height: 25%;
-    float: left;
-    margin-top: 20px;
+.album-title,
+.album-number {
+    margin: 10px;
+    font-size: 20px;
 }
 
-.image {
-    width: 90%;
-    height: 80%;
-    background-position: center;
-    background-size: cover;
-}
-
-.name {
-    font-weight: bold;
-    height: 10%;
-    width: 10%;
-}
-
-.amount {
+.album-number {
     color: gray;
-    height: 10%;
-    width: 10%;
-}
-
-#lago {
-    background-image: url("Lago.jpg");
-}
-#montagna {
-    background-image: url("montagna.jpeg");
-}
-#mare {
-    background-image: url("mare.jpeg");
-}  
-#city {
-    background-image: url("city.jpg");
 }
